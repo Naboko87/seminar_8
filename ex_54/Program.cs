@@ -1,36 +1,75 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine();
 Console.WriteLine("Hello, ex_54!");
-
-double[,] array = GetArrayRandom(3,4);
+Console.WriteLine();
+int[,] array = GetArrayRandom(3,4);
+PrintArray_1(array);
+Console.WriteLine();
 PrintArray(array);
+Console.WriteLine();
 
-double[,] GetArrayRandom(int rows, int cols)
+
+
+
+
+
+
+int[,] GetArrayRandom(int rows, int cols)
 {
-    double [,] array = new double[rows, cols];
+    int [,] array = new int[rows, cols];
     Random random = new Random();
-    double minRandom = -10;
-    double maxRandom = 10;
 
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            //array[i, j] = random.Next(10);
-            array[i, j] = random.NextDouble() * (maxRandom - minRandom) + minRandom; 
+            array[i, j] = random.Next(10);
         }
     }
     return array;
 }
 
-void PrintArray (double[,] array)
+void PrintArray_1(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
          for (int j = 0; j < array.GetLength(1); j++)
          {
-              Console.Write(Math.Round( array[i, j], 1) + "\t");
+            Console.Write(array[i, j] + "\t");
          }
         Console.WriteLine();
     }
+    Console.WriteLine();
 }
 
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        SortRow(array, i);
+         for (int j = 0; j < array.GetLength(1); j++)
+         {
+            Console.Write(array[i, j] + "\t");
+         }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
+
+
+void SortRow(int[,] m, int r)
+{
+    for (int i = 0; i < m.GetLength(0); i++)
+    {
+        for (int j = i + 1; j < m.GetLength(1); j++)
+        {
+            if (m[r, i] < m[r, j])
+            {
+                int tmp = m[r, i];
+                m[r, i] = m[r, j];
+                m[r, j] = tmp;
+           }
+        }
+    }    
+       
+}
