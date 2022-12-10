@@ -1,0 +1,15 @@
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.csproj.AssemblyReference.cache
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.AssemblyInfoInputs.cache
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.AssemblyInfo.cs
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.csproj.CoreCompileInputs.cache
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ex_56
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ex_56.deps.json
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ex_56.runtimeconfig.json
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ex_56.dll
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ref/ex_56.dll
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/bin/Debug/net6.0/ex_56.pdb
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.dll
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ref/ex_56.dll
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.pdb
+/Users/kseniya/Desktop/Learning/seminar_8/ex_56/obj/Debug/net6.0/ex_56.genruntimeconfig.cache
